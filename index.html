@@ -1,0 +1,47 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Filter UI cards via their Profession</h1>
+    
+    <div class="dropdown">
+        <select class="select" onchange="selectProf()" id="prof">
+            <option value="">Select Profession</option>
+            <option value="developer">Developer</option>
+            <option value="admin">Admin</option>
+        </select>
+    </div>
+    <div id="emp">
+            <div class="empitem">
+                <span>1.</span>
+                <span>name: john</span>
+                <span>age: 19 </span>
+                <span> profession: developer</span>
+            </div>
+        
+            <div class="empitem">
+                <span>2.</span>
+                <span>name: jack</span>
+                <span>age: 20 </span>
+                <span>profession: developer</span>   
+            </div>
+        
+            <div class="empitem">
+                <span>3.</span>
+                <span>name: karen</span>
+                <span>age: 19</span>
+                <span>profession: admin</span>
+            </div>
+        
+           
+        </div>
+    <button class="btn" onclick="filter()">Filter</button>
+    <script src="script.js"></script>
+    
+
+</body></html>
